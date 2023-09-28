@@ -1,0 +1,37 @@
+docker image ls [options]
+// Liste les images
+
+docker image ls -a
+// nous donnes la liste de toutes les images 
+
+docker image ls -q
+// nous donnes juste les id des images 
+
+docker image inspect id
+// Affiche informations au sujet d une image cible
+
+docker image rm nom-image
+// effacer une image en local 
+
+docker image history myImage:version
+// Voir les différentes "couches" qui constituent l image
+
+docker image history mon-image
+// Lister les couches d une image
+
+docker image pull mon-image 
+// Récupérer une image depuis un Registry
+
+docker image prune
+// supprimer toutes les images nons utilisées
+```bash
+docker images 
+// liste les images 
+
+docker docker images -a
+// liste les images 
+
+docker docker images -q
+// liste les id des images 
+docker container ls [options]
+-a affiches tous les les containers 
